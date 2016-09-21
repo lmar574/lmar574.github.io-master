@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: black;
+	font-family: 'Montserrat';
+	font-size: 20px;
+	max-width: 1250px;
+}
+nav {
+	background-color: black;
+	list-style-type: none;
+	text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+    font-style: none;
+    font-size: 1.1em;
+    float: left;
+    color: white;
+    padding: .7em .4em;
+    margin: auto 7em auto 7em;
+    text-decoration: none;
+}
+label {
+	font-style: none;
+	font-size: .8em;
+	float: left;
+	color: black;
+	padding: .7em .4em;
+	margin-left: 10.8em;
+	text-decoration: none;
+	display: none;
+}
+#toggle {
+	display: none;
+}
+header {
+ 	/* border: .05em black solid; */
+    background-color: black;
+    margin: auto;
+    padding: 4em 1em 2em 1em;
+}
+header img{
+	/*border: .05em black solid;*/
+	margin: auto;
+	width: 25%;
+	min-width: 200px;
+	display: block;
+}
+header h2 {
+    /* border: .05em black solid; */
+    color: white;
+    padding: .25em;
+    margin: auto auto auto 23em;
+    width: 30%;
+    min-width: 254px;
+    text-align: center;
+    font-size: 1.2em;
+    display: block;
+}
+#summit {
+	/*border: .05em black solid;*/
+	background-color: black;
+	padding: .25em;
+	margin: auto;
+}
+.panel-heading {
+	border: .05em black solid;
+	padding: .25em;
+	float: left;
+	width: 47%;
+	min-width: 350px;
+	overflow: hidden;
+}
+#productsimage {
+	width: 100%;
+	min-width: 350px;
+	max-width: 515px
+}
+/*#mbviewcarousel {
+	border: .05em black solid;
+	padding: .25em;
+	float: right;
+	width: 47%;
+	min-width: 350px;
+	overflow: hidden;
+}*/
+#mbcontentimage {
+	width: 100%;
+	min-width: 350px;
+	max-width: 515px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+#prodcutsmenu {
+	/*border: .05em black solid;*/
+	margin: auto;
+    padding: .5em;
+}
+#prodcutsmenu h3{
+	/*border: .05em black solid;*/
+	color: black;
+    padding: .5em;
+    display: block;
+    margin: auto;
+    text-align: center;
+	font-size: 2em;
+	width: 19%;
+}
+#families {
+	/*border: .05em black solid;*/
+	margin: 1em auto;
+	float: left;
+	width: 16%;
+	text-align: center;
+}
+#collections {
+    width: 100%;
+    min-width: 150px;
+    display: block;
+    margin: auto;
+}
+h4 {
+	display: block;
+	font-size: .8em;
+}
+#watches {
+	/*border: .05em black solid;*/
+	padding: 2em;
+	width: 100%;
+}
+#watches h3 {
+	/*border: .05em black solid;*/
+	color: black;
+	padding: .5em;
+	width: 15%;
+	margin: 0em auto 1em;
+}
+#watchwindow {
+	/*border: .05em black solid;*/
+	margin: 5%;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.watchfamilies {
+	/*border: .05em black solid;*/
+	margin: auto;
+	width: 100%;
+	min-width: 150px;
+}
+#smallsecond {
+	/*border: .05em black solid;*/
+    padding: .5em;
+    margin: auto;
+}
+#smallsecond h3{
+	/*border: .05em black solid;*/
+	color: black;
+	padding: .5em;
+	margin: 2em auto;
+	display: block;
+	width: 30em;
+	text-align: center;
+	font-size: 1.8em;
+}
+span {
+	color: red;
+	font-size: 1.4em;
+}
+#smallsecond div {
+	/*border: .05em black solid;*/
+	margin: auto;
+	width: 65%;
+}
+#smallsecond ul {
+    color: black;
+    margin: 7em auto auto 1em;
+    line-height: 2em;
+    font-size: 1.3em;
+    display: inline-block;
+    list-style-type: none;
+}
+#smallsecond img {
+	width: 55%;
+	min-width: 200px;
+	float: right;
+	display: inline-block;
+}
+.panel-title {
+	border: .05em black solid;
+	width: 100%;
+}
+#mbworld {
+	/*border: .05em black solid;*/
+	padding: 10px;
+	clear: both;
+	margin: auto;
+}
+#mbworld h3{
+	/*border: .05em black solid;*/
+	color: black;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    width: 23.5%;
+    text-align: center;
+	font-size: 2em;
+}
+#styleguidecarousel {
+	/*border: .05em black solid;*/
+    padding: 5px;
+    display: block;
+    float: left;
+}
+.styleguide {
+	width: 100%;
+	min-width: 200px;
+}
+#scoialmediahud {
+	/*border: .05em black solid;*/
+    padding: 5px;
+    display: block;
+}
+#boutiquelocator {
+	/*border: .05em black solid;*/
+	background-color: black;
+    padding: 20px;
+	display: block;
+    margin: auto;
+}
+#boutiquelocator h3 {
+	/*border: .05em black solid;*/
+	text-align: center;
+	width: 20%;
+	color: white;
+	margin: auto;
+}
+#boutiquelocator ul{
+	/*border: .05em black solid;*/
+	color: white;
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+#mapofboutiques {
+	/*border: .05em black solid;*/
+    padding: 5px;
+    display: block;
+    width: 50%;
+    float: right;
+}
+footer {
+	/*border: .05em black solid;*/
+	background-color: black;
+	display: block;
+    padding: 20px;
+    margin: auto;
+}
+#contactme {
+	margin: auto;
+	text-align: center;
+	}

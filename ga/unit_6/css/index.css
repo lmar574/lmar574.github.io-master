@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+	background-color: white;
+	font-family: 'Montserrat';
+}
+nav {
+	background-color: black;
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 60%;
+    z-index: 1;
+}
+nav a{
+	font-style: none;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 14px;
+	margin-left: 30px;
+	text-decoration: none;
+}
+nav a:hover{
+	text-align: center;
+	text-decoration: 
+}
+header{
+	border: 1px black solid;
+	margin-bottom: 30px;
+    padding: 1px;
+    position: relative;
+    top: 30px;
+}
+header img{
+	border: 1px black solid;
+	padding: 5px;
+	position: relative;
+	left: 40%;
+	top: 10px;
+	width: 25%;
+	min-width: 25%;
+}
+header h2{
+	border: 1px black solid;
+	padding: 5px;
+	position: relative;
+	left: 37%;
+	top: -25px;
+	width: 30%;
+}
+#summit {
+	background-color: white;
+	border: 1px black solid;
+	padding: 5px;
+}
+#wrapper {
+	margin: auto;
+}
+#productscarousel {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+}
+#productscarousel a {
+	max-width: 550px;
+	min-width: 550px
+}
+#mbviewcarousel {
+	background-color: white;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+}
+#mbviewcarousel a {
+	max-width: 550px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+#prodcutsmenu {
+	display: block;
+	position: relative;
+	top: 19px
+	margin: 2em;
+	border: 1px black solid;
+    padding: 10px;
+}
+#prodcutsmenu h3{
+	border: 1px black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 12%;
+    position: relative;
+    left: 40%;
+}
+.collections {
+	border: 1px black solid;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 1.5%;
+}
+#watches {
+	border: 1px black solid;
+}
+#watches h3{
+	border: 1px black solid;
+	padding: 10px;
+	position: relative;
+    left: 45%;
+    display: block;
+    width: 7%;
+}
+.watchfamilies {
+	border: 1px black solid;
+	margin: 10px;
+    padding: 10px;
+    display: inline;
+    position: relative;
+    left: 1.5%;
+}
+#smallsecond {
+	border: 1px black solid;
+    padding: 10px;
+}
+#smallsecond h3{
+	border: 1px black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 50%;
+    position: relative;
+    left: 20%;
+}
+span {
+	color: blue;
+}
+#smallsecond div{
+	border: 1px black solid;
+    padding: 10px;
+	display: block;
+	float: left;
+	position: relative;
+	top: 60%;
+}
+#watchdescription {
+	list-style-type: none;
+	line-height: 2em
+}
+#smallsecond figure{
+
+}
+#watchimage {
+
+}
+#mbworld {
+	display: block;
+	border: 1px black solid;
+    padding: 10px;
+}
+#mbworld h3{
+	border: 1px black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 15.5%;
+    position: relative;
+    left: 40%;
+}
+#styleguidecarousel {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+#scoialmediahud {
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+#boutiquelocator {
+	display: block;
+	border: 1px black solid;
+    padding: 20px;
+}
+#boutiquelocator ul{
+	border: 1px black solid;
+    padding: 5px;
+    display: block;
+    list-style-type: none;
+    float: left;
+}
+#mapofboutiques {
+	border: 1px black solid;
+    padding: 5px;
+    display: block;
+    float: right;
+    width: 600px;
+    height: 700px;
+}
+#mapofboutiques div{
+	border: 1px black solid;
+    padding: 5px;
+    display: inline-block;
+}
+footer {
+	border: 1px black solid;
+	display: block;
+    padding: 20px;
+}
+#contactme {
+	position:relative;
+	background-color: black
+	color: white;
+}
+

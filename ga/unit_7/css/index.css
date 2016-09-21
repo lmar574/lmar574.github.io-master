@@ -1,0 +1,388 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: white;
+	font-family: 'Montserrat';
+	font-size: 20px;
+}
+#wrapper {
+	width: 968px;
+	margin: auto;
+	margin-left: auto;
+}
+nav {
+	background-color: black;
+	list-style-type: none;
+	text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 82.5%;
+}
+nav a{
+	font-style: none;
+	font-size: .8em;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: .7em 2.4em;
+	margin-left: 4.8em;
+	text-decoration: none;
+}
+header{
+	border: .05em black solid;
+	margin: 1.5em;
+    padding: auto;
+    position: relative;
+    top: 2em;
+}
+header img{
+	border: .05em black solid;
+	position: absolute;
+	left: 34.5%;
+	top: 1.5em;
+	width: 25%;
+	min-width: 200px;
+}
+header h2{
+	border: .05em black solid;
+	padding: .25em;
+	margin: .5em;
+	position: absolute;
+	left: 31%;
+	top: 12.75em;
+	width: 30%;
+	text-align: center;
+	font-size: .8em;
+}
+#summit {
+	border: .05em black solid;
+	padding: .25em;
+	margin: auto;
+	position: relative;
+	top: 15.7em;
+}
+#productscarousel {
+	background-color: white;
+	border: .05em black solid;
+	padding: .25em;
+	float: left;
+	width: 42%;
+	min-width: 350px;
+}
+#productscarousel img {
+	width: 99%;
+	min-width: 350px;
+}
+#mbviewcarousel {
+	background-color: white;
+	border: .05em black solid;
+	padding: .25em;
+	float: right;
+	width: 42%;
+	min-width: 350px;
+	overflow: hidden;
+}
+#mbviewcarousel img {
+	width: 110%;
+	min-width: 350px;
+	padding: auto;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+#prodcutsmenu {
+	display: block;
+	position: relative;
+	top: 13.6em;
+	left: -3.3%;
+	margin: 2em;
+	border: .05em black solid;
+    padding: .5em;
+    width: 100%;
+}
+#prodcutsmenu h3{
+	border: .05em black solid;
+    padding: .5em;
+    margin: 2em;
+    display: block;
+    width: 9em;
+    position: relative;
+    left: 41%;
+    text-align: center;
+	font-size: .8em;
+}
+.collections {
+	border: .05em black solid;
+    padding: .5em;
+    display: inline;
+    position: relative;
+    left: 5.5%;
+    width: 14.1%;
+    min-width: 150px;
+}
+#watches {
+	border: .05em black solid;
+	padding: auto;
+	position: relative;
+	top: 11.5em;
+}
+#watches h3 {
+	border: .05em black solid;
+	margin: auto;
+	position: absolute;
+	top: 1em;
+	left: 49%;
+	display: block;
+}
+.watchfamilies {
+	border: .05em black solid;
+	width: 14.1%;
+	min-width: 150px;
+	position: relative;
+	top: 4.5em;
+}
+#smallsecond {
+	border: .05em black solid;
+    padding: .5em;
+    position: relative;
+    top: 17em;
+}
+#smallsecond h3{
+	border: .05em black solid;
+	padding: .5em;
+	margin: 2em auto;
+	display: block;
+	width: 30em;
+	text-align: center;
+	font-size: .8em;
+}
+span {
+	color: red;
+}
+#smallsecond ul {
+	line-height: 2em
+	text-align: center;
+	font-size: .8em;
+	display: block-inline;
+	position: relative;
+	top: 9em;
+	left: 21%;
+}
+#smallsecond img {
+	width: 30%;
+	min-width: 200px;
+	position: relative;
+	top: -6em;
+	left: 49%;
+}
+#mbworld {
+	display: block;
+	border: .05em black solid;
+	padding: 10px;
+	clear: both;
+	position: relative;
+	top: 16.97em;
+}
+#mbworld h3{
+	border: .05em black solid;
+    padding: 10px;
+    margin: 2em;
+    display: block;
+    width: 15.5%;
+    position: relative;
+    left: 40%;
+    text-align: center;
+	font-size: .8em;
+}
+#styleguidecarousel {
+	border: .05em black solid;
+    padding: 5px;
+    display: inline-block;
+}
+.styleguide {
+	width: 100%;
+	min-width: 200px;
+}
+#scoialmediahud {
+	border: .05em black solid;
+    padding: 5px;
+    display: inline-block;
+}
+#boutiquelocator {
+	display: block;
+	border: .05em black solid;
+    padding: 20px;
+    position: relative;
+	top: 16.9em;
+}
+#boutiquelocator h3 {
+	position: relative;
+    left: 39%;
+}
+#boutiquelocator ul{
+	border: .05em black solid;
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+#mapofboutiques {
+	border: .05em black solid;
+    padding: 5px;
+    display: block;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    top: -6em;
+}
+footer {
+	border: .05em black solid;
+	display: block;
+    padding: 20px;
+    position: relative;
+    top: 16.86em;
+}
+#contactme {
+	position: relative;
+	left: 44%;
+}
+@media screen and (max-width: 400px) {
+	#wrapper {
+		width: 400px;
+	}
+	nav {
+		width: 100%;
+	}
+	nav a {
+		padding: 0em .6em;
+		text-align: center;
+		margin-left: -0.2em;
+	}
+	header{
+    	position: relative;
+    	top: 2em;
+    	left: -7.4%;
+    	width: 100%;
+	}
+	header img{
+		position: relative;
+		left: 24.5%;
+		top: .3em;
+	}
+	header h2{
+		position: relative;
+		left: 12%;
+		top: .1em;
+		width: 75%;
+	}
+	#summit {
+		position: relative;
+		top: .5em;
+	}
+	#productscarousel {
+		position: relative;
+		left: 2.6%;
+		width: 94%;
+	}
+	#mbviewcarousel {
+		position: relative;
+		left: -3.3%;
+		width: 94%;
+	}
+	#prodcutsmenu {
+		position: relative;
+		top: -1.5em;
+		left: -2em;
+		width: 100%;
+	}
+	#prodcutsmenu h3 {
+		position: relative;
+		left: 27.6%;
+		width: 30%;
+	}
+	.collections {
+		position: relative;
+		left: 9%;
+	}
+	#watches {
+		position: relative;
+		top: -3.5em;
+	}
+	#watches h3 {
+		display: block;
+		width: 26%;
+		position: relative;
+		left: -3%;
+	}
+	.watchfamilies {
+		position: relative;
+		left: 10.9%;
+		display: inline;
+	}
+	#smallsecond {
+		position: relative;
+		top: 3em;
+	}
+	#smallsecond h3 {
+		width: 100%;
+	}
+	#smallsecond ul {
+		display: block;
+		position: relative;
+		left:6%;
+		top: 6em;
+		font-size: .8em;
+	}
+	#smallsecond img {
+		display: block;
+		position: relative;
+		left:59%;
+		top: -7em;
+	}
+	#mbworld {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+	#mbworld h3 {
+		width: 37%;
+		position: relative;
+		left: 23%;
+	}
+	#scoialmediahud {
+		position: relative;
+		left: 23%;
+	}
+	#socialmedia {
+
+	}
+	#boutiquelocator {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+	#boutiquelocator h3 {
+		position: relative;
+		left: 45%;
+	}
+	#boutiquelist {
+		position: relative;
+		top: .5em;
+	}
+	#mapofboutiques {
+		position: relative;
+		left: 45%;
+	}	
+	footer {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+
+
+}

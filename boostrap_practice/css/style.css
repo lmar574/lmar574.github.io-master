@@ -1,0 +1,33 @@
+/*font-family: 'Baloo Paaji', cursive;
+font-family: 'Baloo Tamma', cursive;*/
+
+.jumbotron {
+	border: 5px solid black;
+	margin-bottom: 0px;
+	background-color: #f4511e;
+}
+#brainfartlogo {
+	margin: auto;
+	width: 70%;
+	max-width: 250px;
+}
+#mainheadline {
+	/*border: 5px solid black;*/
+}
+#mainarticle {
+	margin: auto;
+}
+#firstfartoftheday {
+	margin: auto;
+	width: 50%;
+	max-width: 250px;
+}
+#topshlef {
+	border: 5px solid black;
+}
+.col-xs-4 {
+	border: 5px solid black;
+}
+#subjects {
+	font-family: 'Baloo Tamma', cursive;
+}

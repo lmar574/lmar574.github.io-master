@@ -1,0 +1,598 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	background-color: white;
+	font-family: 'Montserrat';
+	font-size: 20px;
+}
+#wrapper {
+	max-width: 1250px;
+	margin: auto;
+}
+nav {
+	background-color: black;
+	list-style-type: none;
+	text-decoration: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+nav a{
+	font-style: none;
+	font-size: .8em;
+	float: left;
+	color: white;
+	padding: .7em .4em;
+	margin-left: 10.8em;
+	text-decoration: none;
+}
+label {
+	font-style: none;
+	font-size: .8em;
+	float: left;
+	color: black;
+	padding: .7em .4em;
+	margin-left: 10.8em;
+	text-decoration: none;
+	display: none;
+}
+#toggle {
+	display: none;
+}
+header{
+	/*border: .05em black solid;*/
+	background-color: black;
+	margin: 2.5em 0 1em;
+	padding: .5em;
+}
+header img{
+	border: .05em black solid;
+	margin: auto;
+	width: 25%;
+	min-width: 200px;
+	display: block;
+}
+header h2{
+	border: .05em black solid;
+	color: white;
+	padding: .25em;
+	margin: auto auto auto 24em;
+	width: 30%;
+	min-width: 254px;
+	text-align: center;
+	font-size: .8em;
+	display: block;
+}
+#summit {
+	/*border: .05em black solid;*/
+	background-color: black;
+	padding: .25em;
+	margin: auto;
+}
+#productscarousel {
+	border: .05em black solid;
+	padding: .25em;
+	float: left;
+	width: 47%;
+	min-width: 350px;
+	overflow: hidden;
+}
+#productscarousel img {
+	width: 100%;
+	min-width: 350px;
+	max-width: 515px
+}
+#mbviewcarousel {
+	border: .05em black solid;
+	padding: .25em;
+	float: right;
+	width: 47%;
+	min-width: 350px;
+	overflow: hidden;
+}
+#mbviewcarousel img {
+	width: 100%;
+	min-width: 350px;
+	max-width: 515px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+#prodcutsmenu {
+	/*border: .05em black solid;*/
+	margin: auto;
+    padding: .5em;
+}
+#prodcutsmenu h3{
+	/*border: .05em black solid;*/
+	color: black;
+    padding: .5em;
+    display: block;
+    margin: auto;
+    text-align: center;
+	font-size: 2em;
+	width: 19%;
+}
+#families {
+	/*border: .05em black solid;*/
+	margin: 1em auto;
+	float: left;
+	width: 16%;
+	text-align: center;
+}
+#collections {
+    width: 100%;
+    min-width: 150px;
+    display: block;
+    margin: auto;
+}
+h4 {
+	display: block;
+	font-size: .8em;
+}
+#watches {
+	border: .05em black solid;
+	padding: 2em;
+	width: 100%;
+}
+#watches h3 {
+	border: .05em black solid;
+	color: black;
+	padding: .5em;
+	width: 12%;
+	margin: 0em auto 1em;
+}
+#watchwindow {
+	border: .05em black solid;
+	margin: 5%;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.watchfamilies {
+	border: .05em black solid;
+	margin: auto;
+	width: 100%;
+	min-width: 150px;
+}
+#smallsecond {
+	border: .05em black solid;
+    padding: .5em;
+    margin: auto;
+}
+#smallsecond h3{
+	border: .05em black solid;
+	color: black;
+	padding: .5em;
+	margin: 2em auto;
+	display: block;
+	width: 30em;
+	text-align: center;
+	font-size: .8em;
+}
+span {
+	color: red;
+	font-size: 1.4em;
+}
+#smallsecond div {
+	border: .05em black solid;
+	margin: auto;
+	width: 65%;
+}
+#smallsecond ul {
+	color: black;
+	margin: 7em auto auto 3.5em;
+	line-height: 2em;
+	font-size: .8em;
+	display: inline-block;
+	list-style-type: none;
+}
+#smallsecond img {
+	width: 55%;
+	min-width: 200px;
+	float: right;
+	display: inline-block;
+}
+#mbworld {
+	display: block;
+	border: .05em black solid;
+	padding: 10px;
+	clear: both;
+	margin: auto;
+}
+#mbworld h3{
+	border: .05em black solid;
+	color: black;
+    padding: 10px;
+    margin: auto;
+    display: block;
+    width: 15.5%;
+    text-align: center;
+	font-size: .8em;
+}
+#styleguidecarousel {
+	border: .05em black solid;
+    padding: 5px;
+    display: block;
+    float: left;
+}
+.styleguide {
+	width: 100%;
+	min-width: 200px;
+}
+#scoialmediahud {
+	border: .05em black solid;
+    padding: 5px;
+    display: block;
+}
+#boutiquelocator {
+	display: block;
+	border: .05em black solid;
+    padding: 20px;
+    margin: auto;
+}
+#boutiquelocator h3 {
+	border: .05em black solid;
+	text-align: center;
+	width: 20%;
+	color: black;
+	margin: auto;
+}
+#boutiquelocator ul{
+	border: .05em black solid;
+	color: black;
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+}
+#mapofboutiques {
+	border: .05em black solid;
+    padding: 5px;
+    display: block;
+    width: 50%;
+    float: right;
+}
+footer {
+	border: .05em black solid;
+	display: block;
+    padding: 20px;
+    margin: auto;
+}
+#contactme {
+	color: white;
+	margin: auto;
+	text-align: center;
+	}
+@media only screen and (max-width: 1142px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a{
+		padding: .7em 1.4em;
+		margin-left: 5.4%;
+		margin-right: 5.4%;
+		float: left;
+		display: inline;
+	}
+	#watches h3 {
+    	display: block;
+    	width: 12%;
+	}
+	.watchfamilies {
+    	position: relative;
+    	left: 5.9%;
+    	display: inline;
+	}
+	#smallsecond h3 {
+		width: 49%;
+	}
+	#smallsecond ul {
+		position: relative;
+		left: 20%;
+    	top: 9em;
+	}
+	#boutiquelocator ul {
+		position: relative;
+		left: 12%;
+	}
+	#mapofboutiques {
+       	position: relative;
+    	left: 39%;
+	}
+}
+@media only screen and (max-width: 892px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		padding: .7em 1.4em;
+		margin-left: 4.4%;
+		margin-right: 4.4%;
+	}
+	.collections {
+    	position: relative;
+    	left: 2%;
+	}
+	#watches h3 {
+    	width: 14.5%;
+	}
+	#smallsecond ul {
+    	position: relative;
+    	top: 6em;
+	}
+}
+@media only screen and (max-width: 783px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		margin-left: 3.4%;
+		margin-right: 3.4%;
+	}
+	#prodcutsmenu {
+    	position: relative;
+    	left: -3.3%;
+	}
+	.collections {
+    	position: relative;
+    	left: 9%;
+	}
+	#watches h3 {
+    	width: 18%;
+	}
+	.watchfamilies {
+    	position: relative;
+    	left: 4.9%;
+	}
+	#smallsecond img {
+    	position: relative;
+    	left: 55%;
+	}
+	#smallsecond ul {
+    	position: relative;
+    	top: 4em;
+	}
+	#mbworld h3 {
+    	left: 44%;
+    }
+}
+@media only screen and (max-width: 712px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		margin-left: 2.4%;
+		margin-right: 2.4%;
+	}
+	#productscarousel {
+		float: none;
+		position: relative;
+		left: 28%;
+	}
+	#mbviewcarousel {
+    	float: none;
+    	position: relative;
+    	left: 28%;
+	}
+	.collections {
+    	position: relative;
+    	left: 4%;
+	}
+}
+@media only screen and (max-width: 628px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		margin-left: 1.4%;
+		margin-right: 1.4%;
+	}
+	.watchfamilies {
+		position: relative;
+		left: .9%;
+		display: inline;
+	}
+	#smallsecond img {
+    	position: relative;
+    	left: 55%;
+	}
+	#smallsecond ul {
+    	position: relative;
+    	top: 4em;
+    	left: 11%;
+	}
+	#mbworld h3 {
+    	left: 40%;
+	}
+	#styleguidecarousel {
+    	position: relative;
+    	left: 15%;
+	}
+	#scoialmediahud {
+    	position: relative;
+    	left: 32%;
+    }
+}	
+@media only screen and (max-width: 571px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		margin-left: 0.4%;
+		margin-right: 0.4%;
+	}
+	header {
+    	position: relative;
+    	left: -5.3%;
+	}
+	#productscarousel {								
+    	position: relative;
+    	left: 20%;
+	}
+	#mbviewcarousel {
+    	position: relative;
+    	left: 20%;
+	}
+	#prodcutsmenu {
+    	position: relative;
+    	left: -7%;
+	}
+	#watches h3 {
+    	width: 22%;
+	}
+	.watchfamilies {
+    	position: relative;
+    	left: 8.9%;
+	}
+}	
+@media only screen and (max-width: 523px) {
+	#wrapper {
+		width: auto;
+	}
+	nav a {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	#smallsecond ul {
+    	position: relative;
+       	left: 7%;
+	}
+}
+@media only screen and (max-width: 480px) {
+	#wrapper {
+		width: auto;
+	}
+	nav {
+		background-color: black;
+		list-style-type: none;
+		text-decoration: none;
+    	position: static;
+    	width: 100%;
+    	display: none;
+	}
+	nav a {
+		padding: 0em .6em;
+		text-align: center;
+		line-height: 1.5em;
+		float: none;
+		display: block;
+	}
+	label {
+		display: block;
+	}
+	#toggle:checked + nav {
+		display: block;
+	}
+	#summit {
+		position: relative;
+		top: .5em;
+	}
+	#productscarousel {
+		position: relative;
+		left: 2.6%;
+		width: 94%;
+	}
+	#mbviewcarousel {
+		position: relative;
+		left: -3.3%;
+		width: 94%;
+	}
+	#prodcutsmenu {
+		position: relative;
+		top: -1.5em;
+		left: -2em;
+		width: 100%;
+	}
+	#prodcutsmenu h3 {
+		position: relative;
+		left: 27.6%;
+		width: 30%;
+	}
+	.collections {
+		position: relative;
+		left: 15%;
+	}
+	#watches {
+		position: relative;
+		top: -3.5em;
+	}
+	#watches h3 {
+		display: block;
+		width: 26%;
+		position: relative;
+		left: -3%;
+	}
+	.watchfamilies {
+		position: relative;
+		left: 1.9%;
+		display: inline;
+	}
+	#smallsecond {
+		position: relative;
+		top: 3em;
+	}
+	#smallsecond h3 {
+		width: 100%;
+	}
+	#smallsecond ul {
+		display: block;
+		position: relative;
+		left:6%;
+		font-size: .8em;
+	}
+	#smallsecond img {
+		display: block;
+		position: relative;
+		left:59%;
+	}
+	#mbworld {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+	#mbworld h3 {
+		width: 37%;
+		position: relative;
+		left: 25%;
+	}
+	#styleguidecarousel {
+		position: relative;
+		left: 4%;
+	}
+	#scoialmediahud {
+		position: relative;
+		left: 29%;
+	}
+	#socialmedia {
+
+	}
+	#boutiquelocator {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+	#boutiquelocator h3 {
+		position: relative;
+		left: 45%;
+	}
+	#boutiquelist {
+		position: relative;
+		top: .5em;
+	}
+	#mapofboutiques {
+		position: relative;
+		left: 45%;
+	}	
+	footer {
+		display: block;
+		position: relative;
+		top: 3em;
+	}
+
+
+}
