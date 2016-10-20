@@ -1,10 +1,13 @@
 /*font-family: 'Baloo Paaji', cursive;
 font-family: 'Baloo Tamma', cursive;*/
 
+body {
+	background-color: #16E4E8;
+}
 .jumbotron {
 	border: 5px solid black;
 	margin-bottom: 0px;
-	background-color: #f4511e;
+	background-color: #16E4E8;
 }
 #brainfartlogo {
 	margin: auto;
