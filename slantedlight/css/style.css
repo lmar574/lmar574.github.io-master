@@ -3,20 +3,20 @@ font-family: 'Baloo Tamma', cursive;*/
 
 body {
 	background-color: #16E4E8;
-	font-family: 'Baloo Tamma', cursive;
+	width: 100%;
 }
 .jumbotron {
-	border: 5px solid black;
+	/*border: 5px solid black;*/
 	margin-bottom: 0px;
 	background-color: #16E4E8;
 }
 #slantedlightlogo {
 	margin: auto;
-	width: 70%;
-	max-width: 250px;
+	min-width: 120px;
+	font-family: 'Baloo Tamma', cursive;
 }
-#title {
-	margin: auto;
+.title {
+	font size: 2em;
 }
 #mainheadline {
 	/*border: 5px solid black;*/
@@ -25,12 +25,59 @@ body {
 	display: block;
 	margin: auto;
 }
-#topshlef {
-	/*border: 5px solid black;*/
-}
-.col-xs-4 {
-	border: 5px solid black;
-}
-#subjects {
+h4{
 	font-family: 'Baloo Tamma', cursive;
 }
+.clients {
+	margin: auto;
+	padding-left: 0%;
+	padding-right: 0%;
+	min-width: 250px;
+}
+.clientbackground {
+	z-index: -1;
+	opacity: .5;
+	width: 100%;
+}
+.logo {
+	z-index: 1;
+	width: 31%;
+	position: absolute;
+	top: 35%;
+	left: 46%;
+}
+.why {
+	border: 5px solid transparent;
+}
+#theteam {
+	/*border: 5px solid black;*/
+	margin-right: 0%;
+}
+.panel {
+	width: 100%;
+	background-color: transparent;
+}
+.teamprofiles {
+	font-size: 1em;
+	font-family: DIN,Helvetica,Arial,sans-serif;
+	text-decoration: none;
+}
+#teamlist {
+	list-style-type: none;
+}
+#email {
+	position: relative;
+	left:10%;
+}
+#cardimage {
+	position: relative;
+	left: 50%;
+}
+.panel {
+	width:60%;
+}
+
+
+
+
+

@@ -1,0 +1,50 @@
+
+
+body{
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    margin: auto;
+}
+#featurearticle {
+    border: 1px solid black
+    margin: auto;
+}
+.falink {
+    display: block;
+    margin: auto;
+}
+#faicon {
+    z-index: -1;
+    opacity: .55;
+    display: block;
+    margin: auto;
+}
+.fatitle {
+    z-index: 1;
+    width: 75%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.author {
+    z-index: 1;
+    position: absolute;
+    bottom: 25%;
+    left: 15%;
+}
+ .article-title {
+    font-family: "Arizona", cursive;
+    border: 1px solid black
+}
+.article-body {
+    border: 1px solid black
+}
+img {
+    float: right;
+}
+#titleimg {
+    float: none;
+    margin: auto auto 1em auto 
+}

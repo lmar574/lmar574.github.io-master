@@ -16,6 +16,13 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+  }
+  </style>
   </head>
   <body>
     <nav class="navbar navbar-inverse">
@@ -30,10 +37,11 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">Digital Markteting</a></li>
-            <li><a href="#">Web Deisgn</a></li>
-            <li><a href="#">Interesting Articles</a></li> 
+            <li class="active"><a href="#">Welcome</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#ourwork">Our Work</a></li>
+            <li><a href="#theteam">The Team</a></li> 
+            <li><a href="#interestingarticles">Interesting Articles</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -42,36 +50,152 @@
         </div>
       </div>
     </nav>
-    <div clas="container">
-      <div class="row">  
-        <div class="col-xs-4">
-        </div>
-        <div class="col-xs-4">
-          <img id="slantedlightlogo" class="img-responsive img-rounded" src="images/slantedlightlogo.png" alt="Salntedlight" title="Slanted Light">
-          <h2 id="title" class="text-center"> <bold>SlantedLight </bold> <br> Uncover <br> What <br> Matters</h2>
-        </div>
-        <div class="col-xs-4">
-        </div>
+    <div class="row">  
+      <div class="col-xs-4">
+        <img id="slantedlightlogo" class="img-responsive img-rounded" src="images/slantedlightlogo.png" alt="Salntedlight" width="225" title="Slanted Light">
       </div>
-      <div id="mainheadline" class="row">
-        <div class="jumbotron">
+      <div class="col-xs-4">
+        <h2 class="title">Slanted Light</h2>
+      </div>
+      <div class="col-xs-4">
+         <h2 class="title"> Uncover <br> What <br> Matters</h2>
+      </div>
+    </div>
+    <div class="row>"  
+      <div id="mainheadline" class="media">
+        <div class="media-middle">
           <video id="mainvideo" width="400" controls>
             <source src="videos/miamiriverfireworks.mp4" type="video/mp4"> 
           </video>
-          <h6 class="text-center">People innovate with greater purpose when they understand real human needs. These needs are often buried. At Slanted Light, we discover and articulate these unseen needs in ways that enable companies to connect with people in enduring ways. We find the story you need to tell, the product you need to make, the market you need to be in by rallying your team around a new understanding of the problem and its solution. We develop brands, produce films, find new markets and redefine olds ones. This is our collective craft.</h6>
         </div>  
       </div>
-      <div id="topshelf" class="row">
-        <div class="col-xs-4">
-          <h4 id="subjects" class="text-center">Digital Marketing</h4>
+      <div class="row">
+        <div class="col-xs-3">
         </div>
-        <div class="col-xs-4">
-          <h4 id="subjects" class="text-center">Web Design</h4>
+        <div id="aboutus" class="col-xs-6">
+          <h4  class="text-center">About Us</h4>
+          <p class="text-center">People innovate with greater purpose when they understand real human needs. These needs are often buried. At Slanted Light, we discover and articulate these unseen needs in ways that enable companies to connect with people in enduring ways. We find the story you need to tell, the product you need to make, the market you need to be in by rallying your team around a new understanding of the problem and its solution. We develop brands, produce films, find new markets and redefine olds ones. This is our collective craft.</p>
         </div>
-        <div class="col-xs-4">
-          <h4 id="subjects" class="text-center">Interesting Articles</h4>
+        <div class="col-xs-3">
         </div>
       </div>
+      <div class="row">  
+        <div class="col-xs-2">
+        </div>
+        <div id="ourwork" class="col-xs-8">
+          <h4  class="text-center">Our Work</h4>
+          <div class="row">
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/nike.jpg">
+              <img class="img-responsive logo" src="images/logo_nike.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <a href="http:"><img class="clientbackground img-responsive" src="images/virgin_cropped.jpg">
+                <img class="logo img-responsive" src="images/logo_virgin.png">
+              </a>
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/stanford.jpg">
+              <img class="img-responsive logo" src="images/logo_stanford.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/microsoft.jpg">
+              <img class="img-responsive logo" src="images/logo_microsoft.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/planet_labs.jpg">
+              <img class="img-responsive logo" src="images/logo_planet_labs.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/nerd_wallet.jpg">
+              <img class="img-responsive logo" src="images/nerdwaller.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/charles_schwab.jpg">
+              <img class="img-responsive logo" src="images/logo_charles_schwab.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/incase.jpg">
+              <img class="img-reponsive logo" src="images/logo_incase.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/atena.jpg">
+              <img class="img-responsive logo" src="images/logo_aetna.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/andreesen.jpg">
+              <img class="img-responsive logo" src="images/logo_andreessen.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/capital_one_cropped.jpg">
+              <img class="img-responsive logo" src="images/capital_one.png">
+            </div>
+            <div class="col-xs-6 clients">
+              <img class="img-responsive clientbackground" src="images/tesla.jpg">
+              <img class="img-responsive logo" src="images/logo_tesla.png">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2">
+        </div>
+      </div>
+      <div class="row why">
+        <div class="col-xs-2 why">
+        </div>
+        <div id="theteam" class="col-xs-8 why">
+          <h4  class="text-center">The Team</h4>
+          <div class="panel">
+            <a href="#sydney" class="teamprofiles" data-toggle="collapse"><b>Sydney Martin</b> / Founder & CEO</a>
+            <a id="email" href="mailto:sydney@slantedlight.com?Subject=What%20Can%20I%20Do%20For%20You" target="_top">sydney@slantedlight.com</a>
+            <div id="sydney" class="collapse">
+              <p>Sydney founded Slanted Light eight years ago when Elon Musk asked him to help out at critical phase in Tesla’s history and growth. Since then he has gone on to work with Sir Richard Branson, Pierre Omidyar, Stephen Hawking and host of other strategic and business visionaries.</p>
+              <p>Sydney’ drive is to understand the key human elements that allow for growth, innovation, and strategic transformation.  In that pursuit, he has interviewed thousands of people around world covering all walks of life. He has presented his ideas and insights to the top performing companies. He serves also as Slanted Light’s film director, a craft he has fine tuned over the last ten years working on a range of documentaries.</p>
+              <p>Sydney has lived around the world—Lyon, France, Johannesburg, South Africa, Singapore, Hong Kong, Miami, New York, Chicago, and San Francisco––where he currently lives with his girlfriend, Christina. He attended Sarah Lawrence College and delivered its 2015’s Convocation Speech. He is an avid athlete (runner, tennis player, surfer) Plato scholar and musician.</p>
+            </div>
+          </div>
+          <div class="panel">
+            <a href="#alex" class="teamprofiles" data-toggle="collapse"><b>Alex Miranda</b> / Design Director</a>
+            <a id="email" href="mailto:alex@slantedlight.com?Subject=What%20Can%20I%20Do%20For%20You" target="_top">alex@slantedlight.com</a>
+            <div id="alex" class="collapse">
+            <p>When Nike needed their new strategy visualized, a strategy developed with Slanted Light, they asked Alex to design the walls of the NXT space in the famed Innovation Kitchen at the Nike campus in Oregon.  This room embodied Alex’s vision of design as a visualization of both thought and possibility.</p> 
+            <p>Alex attended both California College of the Arts and Academy of Art University, for Industrial Design (BFA) & Graphic Design (MFA).</p>
+            <p>In his career at Slanted Light and other San Francisco agencies he has worked with some of the best companies in the world, including Microsoft, Nike, Union 76, LG, Logitech, NVIDIA, Bacardi, Scion & Lexus.</p>
+            <p>Born and raised in the Bay Area, Alex remains unconditionally devoted to the sadly missed Oakland Oaks, and other more famous Oakland sports teams.</p>
+            </div>
+          </div>
+          <div class="panel">
+            <a href="#caroline" class="teamprofiles" data-toggle="collapse"><b>Caroline Thomson</b></a>
+            <a id="email" href="mailto:caroline@slantedlight.com?Subject=What%20Can%20I%20Do%20For%20You" target="_top">caroline@slantedlight.com</a>
+            <div id="caroline" class="collapse">
+            <p>Slanted Light interviews people from all over the world for Nike, Microsoft, and others.  Caroline is the person who finds the right people at the right time.  A graduate of the architecture school at the University of Virginia, is designer, film editor, and office manager.  She is also a new mother.</p>
+            </div>
+          </div>
+          <div class="panel">
+            <a href="#brett" class="teamprofiles" data-toggle="collapse"><b>Brett Bourbon Ph.D</b> / Director of Strategy</a>
+            <a id="email" href="mailto:brett@slantedlight.com?Subject=What%20Can%20I%20Do%20For%20You" target="_top">brett@slantedlight.com</a>
+           <div id="brett" class="collapse">
+            <p>Joining Slanted Light as a consultant in 2015, Brett has been involved in projects for Microsoft, Nike and a host of start-ups.  He is an expert in strategic and technological issues, including strategic marketing and innovation.</p>
+            <p>He received his B.A. from U.C. Berkeley and his Ph.D. from Harvard University.  A professor at Stanford University for ten years, he is now an English professor at the University of Dallas, where he is also co-director of the Master’s in Leadership program. He is also Visiting Associate Professor in The Program of Literary Theory at the University of Lisbon.</p>
+            <p>He has received many awards, including a Fulbright, a Mellon Post-Doctoral Fellowship, the Harvard English Scholar award, and the top teaching awards at both the University of Dallas and at Stanford.</p>
+            <p>Brett is the author of numerous essays on philosophy, art, and culture, as well as the author of Finding a Replacement for the Soul: meaning and mind in literature and philosophy (Harvard UP, 2004).</p>
+           </div>
+          </div>
+        </div>
+        <div class="col-xs-2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+            <H4 class="text-center">Interesting Articles</H4>
+        </div>
+        <div class="col-xs-6">
+          <div class="w3-card-8 w3-hover-shadow w3-btn-block">
+            <img id="cardimage" src="images/caro.jpg" alt="Caro"height="250">
+            <div class="w3-container">
+              <P>Interesting take on how to take a nap. Click on the image to see more</P>
+            </div>
+          </div>
+        </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
